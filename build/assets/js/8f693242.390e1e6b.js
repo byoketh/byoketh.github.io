@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrichdocs=self.webpackChunkrichdocs||[]).push([[9664],{7143:i=>{i.exports=JSON.parse('{"label":"docusaurus","permalink":"/ii-richie.github.io/blog/tags/docusaurus","allTagsPath":"/ii-richie.github.io/blog/tags","count":4}')}}]);
