@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrichdocs=self.webpackChunkrichdocs||[]).push([[3434],{920:i=>{i.exports=JSON.parse('{"label":"hello","permalink":"/ii-richie.github.io/blog/tags/hello","allTagsPath":"/ii-richie.github.io/blog/tags","count":2}')}}]);
