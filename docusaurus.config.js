@@ -54,7 +54,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.svg',
       navbar: {
         title: 'richDocs',
         logo: {
@@ -65,10 +65,14 @@ const config = {
           {
             type: 'doc',
             docId: 'intro',
+            label: 'docs',
             position: 'left',
-            label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/blog', 
+            label: 'Blog', 
+            position: 'left'
+          },
           {
             href: 'https://github.com/ii-richie',
             label: 'GitHub',
@@ -83,8 +87,8 @@ const config = {
             title: 'docs',
             items: [
               {
-                label: 'tutorial',
-                to: '/docs/intro',
+                label: 'docs',
+                to: '/docs/welcome',
               },
             ],
           },
