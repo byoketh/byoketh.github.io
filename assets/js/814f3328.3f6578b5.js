@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrichdocs=self.webpackChunkrichdocs||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"hello there","permalink":"/ii-richie.github.io/blog/hello-there"}]}')}}]);

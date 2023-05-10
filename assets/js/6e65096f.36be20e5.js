@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrichdocs=self.webpackChunkrichdocs||[]).push([[749],{577:i=>{i.exports=JSON.parse('{"label":"richDocs","permalink":"/ii-richie.github.io/blog/tags/rich-docs","allTagsPath":"/ii-richie.github.io/blog/tags","count":1}')}}]);
