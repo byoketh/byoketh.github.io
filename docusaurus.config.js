@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'RichDocs',
+  title: 'richDocs',
   tagline: 'come to do some reading?',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/richLogo.png',
 
   // Set the production url of your site here
   url: 'https://ii-richie.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ii-richie.github.io/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -53,31 +53,33 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/logo.svg',
+      // social card
+      image: 'img/richLogo.png',
       navbar: {
         title: 'richDocs',
         logo: {
           alt: 'richDocs logo',
-          src: 'img/logo.svg',
+          src: 'img/richLogo.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'welcome',
             label: 'docs',
             position: 'left',
           },
           {
             to: '/blog', 
-            label: 'Blog', 
+            label: 'blog', 
             position: 'left'
           },
+          /*
           {
             href: 'https://github.com/ii-richie',
-            label: 'GitHub',
+            label: 'github',
             position: 'right',
           },
+          */
         ],
       },
       footer: {
@@ -92,30 +94,32 @@ const config = {
               },
             ],
           },
+          /*
           {
             title: 'community',
             items: [
               {
-                label: 'Discord',
+                label: 'discord',
                 href: 'https://discordapp.com/invite/aGkfTjgNCE',
               },
             ],
           },
+          */
           {
-            title: 'More',
+            title: 'more',
             items: [
               {
-                label: 'Blog',
+                label: 'blog',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
+                label: 'github',
                 href: 'https://github.com/ii-richie',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} richWorld. built with 💚 and 🦖.`,
       },
       prism: {
         theme: lightCodeTheme,
