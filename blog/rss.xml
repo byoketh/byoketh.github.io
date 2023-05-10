@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>richDocs Blog</title>
-        <link>https://ii-richie.github.io/blog</link>
+        <link>https://ii-richie.github.io/ii-richie.github.io/blog</link>
         <description>richDocs Blog</description>
         <lastBuildDate>Tue, 07 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,13 +10,14 @@
         <language>en</language>
         <item>
             <title><![CDATA[hello there]]></title>
-            <link>https://ii-richie.github.io/blog/hello</link>
-            <guid>https://ii-richie.github.io/blog/hello</guid>
+            <link>https://ii-richie.github.io/ii-richie.github.io/blog/hello-there</link>
+            <guid>https://ii-richie.github.io/ii-richie.github.io/blog/hello-there</guid>
             <pubDate>Tue, 07 Mar 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[i hav blog now woo]]></description>
             <content:encoded><![CDATA[<p>i hav blog now woo</p><p>i feel like i'm in the 2010s</p>]]></content:encoded>
-            <category>richDocs</category>
             <category>hello</category>
+            <category>richDocs</category>
+            <category>docusaurus</category>
         </item>
     </channel>
 </rss>

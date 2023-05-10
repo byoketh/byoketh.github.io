@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrichdocs=self.webpackChunkrichdocs||[]).push([[709],{2039:s=>{s.exports=JSON.parse('{"permalink":"/ii-richie.github.io/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
