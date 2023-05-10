@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://ii-richie.github.io/blog</id>
+    <id>https://richworld.ninja/blog</id>
     <title>richDocs Blog</title>
     <updated>2023-03-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://ii-richie.github.io/blog"/>
+    <link rel="alternate" href="https://richworld.ninja/blog"/>
     <subtitle>richDocs Blog</subtitle>
-    <icon>https://ii-richie.github.io/img/richLogo.png</icon>
+    <icon>https://richworld.ninja/img/richLogo.png</icon>
     <entry>
         <title type="html"><![CDATA[hello there]]></title>
-        <id>https://ii-richie.github.io/blog/hello-there</id>
-        <link href="https://ii-richie.github.io/blog/hello-there"/>
+        <id>https://richworld.ninja/blog/hello-there</id>
+        <link href="https://richworld.ninja/blog/hello-there"/>
         <updated>2023-03-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[i hav blog now woo]]></summary>
         <content type="html"><![CDATA[<p>i hav blog now woo</p><p>i feel like i'm in the 2010s</p>]]></content>
