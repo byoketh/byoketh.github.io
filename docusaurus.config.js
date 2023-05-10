@@ -11,15 +11,16 @@ const config = {
   favicon: 'img/richLogo.png',
 
   // Set the production url of your site here
-  url: 'https://ii-richie.github.io',
+  url: 'https://richworld.ninja',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ii-richie', // Usually your GitHub org/user name.
   projectName: 'ii-richie.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

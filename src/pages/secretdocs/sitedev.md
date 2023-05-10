@@ -1,11 +1,12 @@
 ### reqs
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
+- [Node.js](https://nodejs.org/en/download/) v18.12.1
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [Docusaurus](https://docusaurus.io/) v2.4.0
 
 ## run a dev server
 
-```bash
+```
 npm run start
 ```
 
@@ -15,10 +16,9 @@ the site **reloads automatically** and displays changes.
 
 ### deployment
 
-Not using SSH:
+push all changes to master branch first, then:
 
 ```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+cmd /C 'set "GIT_USER=ii-richie" && npm run deploy'
 
-if you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+this build the site to the `gh-pages` branch
