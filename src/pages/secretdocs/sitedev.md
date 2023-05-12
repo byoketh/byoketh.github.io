@@ -19,6 +19,7 @@ the site **reloads automatically** and displays changes.
 push all changes to master branch first, then:
 
 ```
-cmd /C 'set "GIT_USER=ii-richie" && npm run deploy'
+cmd /C 'set "GIT_USER=<USERNAME>" && npm run deploy'
+```
 
 this build the site to the `gh-pages` branch
