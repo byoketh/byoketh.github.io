@@ -4,31 +4,31 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'easy to use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Easy to Read',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        navigate effortlessly and find the exact information you need with 
-        an intuitive search function. links within the documents allow you 
+        Thanks to <a href='https://docusaurus.io/' target='_blank' rel='noopener noreferrer'>Docusaurus</a>; Navigate effortlessly and find the exact information you need with 
+        an intuitive search function. Links within the documents allow you 
         to jump directly to the relevant sections within each doc.
       </>
     ),
   },
   {
-    title: 'focus on information',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Focus on Information',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        richDocs makes it simple for you focus on information. search, link sections, and read up!
+        The richDocs project focuses on offering rich documentation. The best docs are right here. Search, link specific sections, and read up!
       </>
     ),
   },
   {
-    title: 'no ads',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'No ads',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        no intrusive pop-up ads, or videos that start playing without permission. 
+        No intrusive pop-up ads, or videos that start playing without your permission. 
       </>
     ),
   },

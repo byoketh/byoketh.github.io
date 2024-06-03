@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import Button from '@site/src/components/richButton';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
@@ -15,29 +16,21 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/welcome">
-            welcome!
-          </Link>
+          <Button to='./docs/welcome'>Welcome!</Button>
         </div>
         <br/>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to= 'https://richworld.ninja/d2docs'
-            target= '_self'>
-            d2Docs
-          </Link>
+          <Button to='/richbot'>Our latest project!</Button>
         </div>
         <br/>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/blog">
-            blog :3
-          </Link>
+          <Button to='/docs/d2docs'>d2Docs</Button>
         </div>
+        <br/>
+        <div className={styles.buttons}>
+          <Button to='/portfolio'>Portfolio</Button>
+        </div>
+        <br/>
       </div>
     </header>
   );

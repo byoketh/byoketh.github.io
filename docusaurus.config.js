@@ -1,13 +1,12 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'richDocs',
-  tagline: 'come to do some reading?',
+  title: 'richWorld',
+  tagline: 'Come to do some reading?',
   favicon: 'img/richLogo.png',
 
   // Set the production url of your site here
@@ -17,10 +16,10 @@ const config = {
   baseUrl: '/',
 
   // GitHub pages deployment config.
-  organizationName: 'ii-richie', // Usually your GitHub org/user name.
-  projectName: 'ii-richie.github.io', // Usually your repo name.
+  organizationName: 'byoketh', // Usually your GitHub org/user name.
+  projectName: 'byoketh.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
-  trailingSlash: true,
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -57,74 +56,80 @@ const config = {
       // social card
       image: 'img/richLogo.png',
       navbar: {
-        title: 'richDocs',
+        title: 'richWorld',
         logo: {
-          alt: 'richDocs logo',
+          alt: 'richWorld logo',
           src: 'img/richLogo.png',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'welcome',
-            label: 'docs',
-            position: 'left',
-          },
-          {
-            to: '/blog', 
-            label: 'blog', 
-            position: 'left'
-          },
-          /*
-          {
-            href: 'https://github.com/ii-richie',
-            label: 'github',
-            position: 'right',
-          },
-          */
-        ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'docs',
+            title: 'Docs',
             items: [
               {
-                label: 'docs',
+                label: 'richDocs',
                 to: '/docs/welcome',
               },
-            ],
-          },
-          /*
-          {
-            title: 'community',
-            items: [
               {
-                label: 'discord',
-                href: 'https://discordapp.com/invite/aGkfTjgNCE',
+                label: 'd2Docs',
+                to: '/docs/d2docs',
               },
             ],
           },
-          */
           {
-            title: 'more',
+            title: 'Links',
             items: [
               {
-                label: 'blog',
+                label: 'X',
+                href: 'https://x.com/byoketh',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/byoketh',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/N5ZHJ9qFbJ',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/richiecordrey',
+              },
+              {
+                label: 'Gmail',
+                href: 'mailto:rdcordrey@gmail.com',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
                 to: '/blog',
               },
               {
-                label: 'github',
-                href: 'https://github.com/ii-richie',
+                label: 'Source',
+                href: 'https://github.com/byoketh/byoketh.github.io',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} richWorld. built with 💚 and 🦖.`,
+        logo: {
+          alt: 'richWorld',
+          src: 'img/richLogo.png',
+          href: '/',
+          width: 70,
+          height: 70,
+        },
+        copyright: `<a href="/lessrichdocs">.</a><br/>Copyright © ${new Date().getFullYear()} richWorld. Built with 💙 and 🦕.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.vsDark,
+        darkTheme: prismThemes.dracula,
+        additionalLanguages: ['bash', 'json'],
       },
     }),
 };

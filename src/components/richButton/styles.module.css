@@ -1,0 +1,23 @@
+.button {
+  padding: 15px 30px;
+  font-size: large;
+  font-weight: bold;
+  color: #000;
+  background: linear-gradient(to right, #934caf, #7d2e7d);
+  border: 3px solid #a73da7;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  transition: border 2s, box-shadow 0.1s, background 0.1s;
+}
+
+.button:hover {
+  border: 3px solid #000000aa;
+  color: black;
+  text-decoration: none;
+}
+
+.button:onClick {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.25);
+}

@@ -1,11 +1,11 @@
 richie:
-  name: richie
-  title: maintainer of richDocs + d2Docs
-  url: https://github.com/ii-richie
-  image_url: https://github.com/ii-richie.png
+  name: Richie Cordrey
+  title: Founder of richWorld
+  url: https://github.com/byoketh
+  image_url: https://github.com/byoketh.png
 
 layton:
-  name: layton
-  title: author for d2Docs
+  name: Layton
+  title: Author for richDocs
   url: none
   image_url: none

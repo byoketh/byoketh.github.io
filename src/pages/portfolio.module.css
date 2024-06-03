@@ -1,0 +1,190 @@
+.heroSection {
+  position: relative;
+  background-image: url('/img/background.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 150, 0.4);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.heroContent {
+  background: rgba(25, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.portfolioTitle {
+  font-size: 2rem;
+  color: #ffc5f5;
+}
+
+.portfolioText {
+  margin-top: 20px;
+  color: #ffc5f5;
+}
+
+.portfolioContent {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profileImage {
+  width: 340px;
+  border-radius: 50%;
+  transition: width 0.3s ease;
+}
+.profileImage.shrink {
+  width: 220px;
+}
+
+.portfolioName {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+  color: #ffc5f5;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+  white-space: nowrap;
+}
+
+.portfolioPronouns {
+  color: #ffc5f5;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.socialMediaContainer {
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.socialMediaButton {
+  margin: auto;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #222;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+.socialMediaButton:hover {
+  background-color: #555;
+}
+.socialMediaButton img {
+  width: 20px;
+  height: 20px;
+}
+
+.portfolioContainer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.projectGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectThumbnail {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+.projectThumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+.projectThumbnail:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.projectThumbnail:active {
+  transform: scale(0.95);
+}
+.projectThumbnail:hover img {
+  transform: scale(1.1);
+}
+.projectInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.projectThumbnail:hover .projectInfo {
+  opacity: 1;
+}
+
+.achievementGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.achievementThumbnail {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+.achievementThumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+.achievementThumbnail:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.achievementThumbnail:active {
+  transform: scale(0.95);
+}
+.achievementThumbnail:hover img {
+  transform: scale(1.1);
+}
+.achievementInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.achievementThumbnail:hover .achievementInfo {
+  opacity: 1;
+}
