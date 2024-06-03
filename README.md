@@ -1,3 +1,3 @@
-# richDocs
+# richWorld
 
-this website is built using [Docusaurus 2](https://docusaurus.io/), an *amazing* modern static website generator.
+this website is built using [Docusaurus 3](https://docusaurus.io/), an *amazing* modern static website generator.
