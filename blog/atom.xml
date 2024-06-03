@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://richworld.ninja/blog</id>
-    <title>richDocs Blog</title>
-    <updated>2023-03-07T00:00:00.000Z</updated>
+    <title>richWorld Blog</title>
+    <updated>2024-06-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://richworld.ninja/blog"/>
-    <subtitle>richDocs Blog</subtitle>
+    <subtitle>richWorld Blog</subtitle>
     <icon>https://richworld.ninja/img/richLogo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[hello there, again!]]></title>
+        <id>https://richworld.ninja/blog/hello-again</id>
+        <link href="https://richworld.ninja/blog/hello-again"/>
+        <updated>2024-06-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I'm back!! I've decided to change a good bit of the website. We're going to embrace the name "richworld" but for now— focus more on richDocs. richDocs is all about rich documentation, so we've got more authors and internal guidelines to help us really flesh out this idea of top-tier docs for games and programming alike.]]></summary>
+        <content type="html"><![CDATA[<p>I'm back!! I've decided to change a good bit of the website. We're going to embrace the name "richworld" but for now— focus more on richDocs. richDocs is all about <em>rich</em> documentation, so we've got more authors and internal guidelines to help us really flesh out this idea of top-tier docs for games and programming alike.</p>]]></content>
+        <author>
+            <name>Richie Cordrey</name>
+            <uri>https://github.com/byoketh</uri>
+        </author>
+        <category label="hello" term="hello"/>
+        <category label="richWorld" term="richWorld"/>
+        <category label="richDocs" term="richDocs"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[hello there]]></title>
         <id>https://richworld.ninja/blog/hello-there</id>
         <link href="https://richworld.ninja/blog/hello-there"/>
         <updated>2023-03-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[i hav blog now woo]]></summary>
-        <content type="html"><![CDATA[<p>i hav blog now woo</p><p>i feel like i'm in the 2010s</p>]]></content>
+        <content type="html"><![CDATA[<p>i hav blog now woo</p>
+<p>i feel like i'm in the 2010s</p>]]></content>
         <author>
-            <name>richie</name>
-            <uri>https://github.com/ii-richie</uri>
+            <name>Richie Cordrey</name>
+            <uri>https://github.com/byoketh</uri>
         </author>
         <category label="hello" term="hello"/>
         <category label="richDocs" term="richDocs"/>

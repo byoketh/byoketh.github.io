@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrichdocs=self.webpackChunkrichdocs||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"hello there, again!","permalink":"/blog/hello-again","unlisted":false},{"title":"hello there","permalink":"/blog/hello-there","unlisted":false}]}')}}]);
