@@ -9,6 +9,8 @@ kinda like a closet...
 
 # lessrichDocs
 
-## [docusaurus docs](https://docusaurus.io/docs)
-
 ## [Quickstart Guide](lessrichdocs/quickstart)
+
+## [Development](lessrichdocs/development)
+
+## [docusaurus docs](https://docusaurus.io/docs)
