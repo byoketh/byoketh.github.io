@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrichdocs=self.webpackChunkrichdocs||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"hello there, again!","permalink":"/blog/hello-again","unlisted":false,"date":"2024-06-02T00:00:00.000Z"},{"title":"hello there","permalink":"/blog/hello-there","unlisted":false,"date":"2023-03-07T00:00:00.000Z"}]}')}}]);
