@@ -20,11 +20,19 @@ function HomepageHeader() {
         </div>
         <br/>
         <div className={styles.buttons}>
+          <Button to='/gamestudios'>richWorld Game Studios</Button>
+        </div>
+        <br/>
+        <div className={styles.buttons}>
           <Button to='/richbot'>Our latest project!</Button>
         </div>
         <br/>
         <div className={styles.buttons}>
           <Button to='/docs/d2docs'>d2Docs</Button>
+        </div>
+        <br/>
+        <div className={styles.buttons}>
+          <Button to='/docs/lethaldocs'>lethalDocs</Button>
         </div>
         <br/>
         <div className={styles.buttons}>
