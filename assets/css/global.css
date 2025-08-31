@@ -1,0 +1,205 @@
+/* Global CSS Variables and Styles for richWorld */
+:root {
+  /* Color Palette */
+  --color-primary: #6140bd;
+  --color-secondary: #c299ff;
+  --color-background: #1e1e1e;
+  --color-surface: #2a2a2a;
+  --color-accent: #ffb6c1;
+  --color-text: #e0c3fc;
+  --color-muted-text: #91bed8;
+  --color-border: #444444;
+  --color-hover: #c299ff;
+
+  /* Typography */
+  --font-family: Arial, sans-serif;
+  --font-family-alt: 'Roboto', sans-serif;
+  --line-height: 1.6;
+  
+  /* Gradients */
+  --gradient-background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  --gradient-home: linear-gradient(135deg, #ffb8e4, #8ec5fc);
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+  
+  /* Border Radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.2);
+  --shadow-glow: 0 6px 20px rgba(219, 180, 255, 0.4);
+}
+
+/* Global Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  padding: 0;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: var(--spacing-md);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: var(--spacing-sm);
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: var(--color-secondary);
+}
+
+p {
+  margin-bottom: var(--spacing-md);
+  line-height: var(--line-height);
+}
+
+/* Links */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-hover);
+  text-decoration: underline;
+}
+
+/* Utility Classes */
+
+
+.content {
+  padding: 55px 40px 20px 40px;
+}
+
+.section {
+  margin: var(--spacing-xl) 0;
+  padding: var(--spacing-lg);
+  background: var(--color-surface);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.hero {
+  text-align: center;
+  background: var(--gradient-background);
+  color: var(--color-muted-text);
+  padding: var(--spacing-xl) var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-glow);
+  margin-bottom: var(--spacing-xl);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+}
+
+.hero p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ul ul {
+  list-style-type: circle;
+  margin-top: var(--spacing-xs);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  :root {
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+  }
+  
+  .content {
+    padding: 70px 20px 20px 20px;
+  }
+  
+  .hero {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    padding: 70px 15px 15px 15px;
+  }
+  
+  .hero {
+    padding: var(--spacing-md);
+  }
+  
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+}
